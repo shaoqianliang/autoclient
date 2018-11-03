@@ -16,4 +16,11 @@
     方案三agent(服务器多的时候，因为ssh连接耗时)
         v = subprocess.getoutput('ls')执行命令
         API：Django接收数据并入库
-        
+
+反射 getattr（）
+导入字符串类型的模块impolib
+目录
+    -src业务
+    -config自定义配置
+    -bin启动
+    -lib公共类库(包含内置配置)
